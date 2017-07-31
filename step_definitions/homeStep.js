@@ -1,7 +1,6 @@
-
 var {defineSupportCode} = require('cucumber');
-var pageFactory = require('../support/pages/pageFactory.js')
-// var Utils = require('../support/helpers/utils.js');
+var pageFactory = require('../support/pages/pageFactory.js');
+var PageFactory = require('../po/page/PageFactory');
 
 defineSupportCode(({When}) => {
 
